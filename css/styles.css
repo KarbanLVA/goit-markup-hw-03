@@ -1,0 +1,217 @@
+:root {
+  --main-background-color: #e5e5e5;
+  --main-black-color: #212121;
+  --main-white-color: #ffffff;
+  --text-color: #757575;
+  --logo-hover-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: var(--main-white-color);
+}
+/* логотип */
+.logo-web,
+.logo-studio-hdr,
+.logo-studio-ftr {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-hover-color);
+  text-decoration: none;
+}
+.logo-studio-hdr {
+  color: var(--main-black-color);
+}
+.logo-studio-ftr {
+  color: var(--main-white-color);
+}
+/* навигация */
+.nav-links {
+  list-style: none;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-black-color);
+  text-decoration: none;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--logo-hover-color);
+}
+/* контакты */
+.header-contact {
+  list-style: none;
+}
+.header-contact .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.header-contact .link:hover,
+.header-contact .link:focus {
+  color: var(--logo-hover-color);
+}
+
+/* MAIN */
+/* главная страница */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--logo-hover-color);
+  color: var(--main-white-color);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--main-white-color);
+  color: var(--logo-hover-color);
+}
+.best,
+.services {
+  background-color: var(--main-background-color);
+}
+.best-list {
+  list-style: none;
+}
+.best-list .list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-black-color);
+}
+.best-list .list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.sevices-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+.services-list {
+  list-style: none;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team-list {
+  list-style: none;
+}
+.team-list .list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+.team-list .list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* страница портфолио */
+.portfolio {
+  background-color: var(--main-background-color);
+}
+.portfolio-buttons {
+  list-style: none;
+}
+.portfolio-buttons .button-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--main-black-color);
+  cursor: pointer;
+}
+.portfolio-buttons .button-item:hover,
+.portfolio-buttons .button-item:focus {
+  background-color: var(--logo-hover-color);
+  color: var(--main-white-color);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-list .list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-black-color);
+}
+.portfolio-list .list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+/* адрес и контакты */
+.address-links {
+  list-style: none;
+}
+.footer-address .map,
+.footer-address .contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-white-color);
+  text-decoration: none;
+}
+.footer-address .contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address .contact:hover,
+.footer-address .contact:focus {
+  color: var(--logo-hover-color);
+}
